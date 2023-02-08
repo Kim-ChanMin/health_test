@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'health'
+  s.name             = 'test_health'
   s.version          = '1.0.4'
   s.summary          = 'Wrapper for the iOS HealthKit and Android GoogleFit services.'
   s.description      = <<-DESC
