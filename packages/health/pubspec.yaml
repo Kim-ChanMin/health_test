@@ -1,5 +1,5 @@
-name: health
-description: Wrapper for the iOS HealthKit and Android GoogleFit services.
+name: test_health
+description: Test change health package.
 version: 4.4.0
 homepage: https://github.com/cph-cachet/flutter-plugins/tree/master/packages/health
 
