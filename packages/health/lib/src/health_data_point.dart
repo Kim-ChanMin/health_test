@@ -82,7 +82,7 @@ class HealthDataPoint {
         'device_id': deviceId,
         'source_id': sourceId,
         'source_name': sourceName,
-        'device': device.toJson()
+        'device': device.toJson(),
       };
 
   @override
