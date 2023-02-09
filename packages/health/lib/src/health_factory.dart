@@ -178,7 +178,7 @@ class HealthFactory {
           _platformType,
           _deviceId!,
           '',
-          ''
+          '',
           Device(
             '',
             '',
