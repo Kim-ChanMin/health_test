@@ -399,12 +399,12 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
                         "date_from": Int(sample.startDate.timeIntervalSince1970 * 1000),
                         "date_to": Int(sample.endDate.timeIntervalSince1970 * 1000),
                         "source_id": sample.sourceRevision.source.bundleIdentifier,
-                        "source_name": sample.sourceRevision.source.name
+                        "source_name": sample.sourceRevision.source.name,
                         "device": [
                             "software_version": sample.device?.softwareVersion,
                             "manufacturer": sample.device?.manufacturer, 
                             "model": sample.device?.model,
-                            "name": sample.device?.name
+                            "name": sample.device?.name,
                         ]
                     ]
                 }
@@ -449,7 +449,7 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
                             "software_version": sample.device?.softwareVersion,
                             "manufacturer": sample.device?.manufacturer, 
                             "model": sample.device?.model,
-                            "name": sample.device?.name
+                            "name": sample.device?.name,
                         ]
                     ]
                 }
@@ -470,12 +470,12 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
                         "date_from": Int(sample.startDate.timeIntervalSince1970 * 1000),
                         "date_to": Int(sample.endDate.timeIntervalSince1970 * 1000),
                         "source_id": sample.sourceRevision.source.bundleIdentifier,
-                        "source_name": sample.sourceRevision.source.name
+                        "source_name": sample.sourceRevision.source.name,
                         "device": [
                             "software_version": sample.device?.softwareVersion,
                             "manufacturer": sample.device?.manufacturer, 
                             "model": sample.device?.model,
-                            "name": sample.device?.name
+                            "name": sample.device?.name,
                         ]
                     ]
                 }
@@ -502,7 +502,7 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
                         "date_from": Int(sample.startDate.timeIntervalSince1970 * 1000),
                         "date_to": Int(sample.endDate.timeIntervalSince1970 * 1000),
                         "source_id": sample.sourceRevision.source.bundleIdentifier,
-                        "source_name": sample.sourceRevision.source.name
+                        "source_name": sample.sourceRevision.source.name,
                     ]
                 }
                 DispatchQueue.main.async {
@@ -555,12 +555,12 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
             "date_from": Int(sample.startDate.timeIntervalSince1970 * 1000),
             "date_to": Int(sample.endDate.timeIntervalSince1970 * 1000),
             "source_id": sample.sourceRevision.source.bundleIdentifier,
-            "source_name": sample.sourceRevision.source.name
+            "source_name": sample.sourceRevision.source.name,
             "device": [
                 "software_version": sample.device?.softwareVersion,
                 "manufacturer": sample.device?.manufacturer, 
                 "model": sample.device?.model,
-                "name": sample.device?.name
+                "name": sample.device?.name,
             ]
         ]
     }
